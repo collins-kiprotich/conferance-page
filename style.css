@@ -580,9 +580,10 @@ body,html {
         display: none;
     }
 }
-
-.speaker-container-big {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: yellow;
+@media (min-width: 768px){
+    #speaker-mother-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+g

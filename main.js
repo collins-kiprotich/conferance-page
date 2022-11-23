@@ -33,7 +33,7 @@ aboutClose.addEventListener('click',() => {
 })
 
 
-const body2 = document.querySelector('#featured-speakers');
+const body2 = document.querySelector('#speaker-mother-container');
 const speakersSection = document.createElement('div');
 speakersSection.className = 'speaker-container-big';
 
