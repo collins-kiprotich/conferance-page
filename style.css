@@ -135,9 +135,13 @@ body,html {
     #homepage h1 {
         
         color: #ec5242;
-        font-size: 80px; 
+        font-size: 100px; 
         font-weight: 700;
         margin-bottom: 5%;
+        background-image: url(images/cut-oranges.webp);
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
     @media (max-width:768px) {
@@ -373,8 +377,24 @@ body,html {
 
     .previous-events-images-container {
         display: flex;
-        justify-content: center
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        color: white;
+        
     }
+
+    .previous-events-images-container {
+        background-color: whitesmoke;
+        opacity: 0.4;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
     .section4 {
         background-color: #272a31;
     }
@@ -389,6 +409,7 @@ body,html {
         margin-top: 20px;
         padding-top: 5px;
     }
+    
 
     @media (min-width:768px) {
         .main-program-container{
@@ -400,10 +421,10 @@ body,html {
         .activity {
             display: flex;
             flex-direction: column;
-        }
-         .activity:nth-child(4) {
-            border: 2px solid white;
          }
+         .activity:hover {
+            border: 2px solid white;
+        }
          #about .buttondiv{
             display: none;
          }
@@ -575,8 +596,11 @@ body,html {
 
 
 @media (max-width:768px){
+    
     .speaker-container:nth-child(3),
-    .speaker-container:nth-child(4) {
+    .speaker-container:nth-child(4),
+    .speaker-container:nth-child(5),
+    .speaker-container:nth-child(6) {
         display: none;
     }
 }
@@ -586,4 +610,3 @@ body,html {
         grid-template-columns: 1fr 1fr;
     }
 }
-g

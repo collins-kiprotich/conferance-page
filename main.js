@@ -39,38 +39,57 @@ speakersSection.className = 'speaker-container-big';
 
 const speakersProjectArray = [];
 const speakers = [
-    {
-      id: 'speaker-1',
-      Name: 'Nicholas Mutembei',
-      image: './images/h2o.png',
-      quote: 'its a great day' 
-    },
+  {
+    id: 'speaker-1',
+    Name: 'William Ruto',
+    image: './images/William-ruto.webp',
+    quote: 'Climates change is a great matter for concern, we need to act urgently',
+    Description: 'Phd Havard University, Masters Degree',
+  },
     {
         id: 'speaker-2',
-        Name: 'Nicholas Mutembei',
-        image: './images/h2o.png',
-        quote: 'its a great day' 
+        Name: 'James Mwangi',
+        image: '../images/Ramaphosa.jpg',
+        quote: 'Climates change is a great matter for concern, we need to act urgently' ,
+        Description: 'Phd Havard University, Masters Degree',
       },
       {
         id: 'speaker-3',
-        Name: 'Nicholas Mutembei',
-        image: './images/h2o.png',
-        quote: 'its a great day' 
+        Name: 'Cyril Ramaphosa',
+        image: './images/Ramaphosa.jpg',
+        quote: 'Climates change is a great matter for concern, we need to act urgently',
+        Description: 'Phd Havard University, Masters Degree', 
       },
       {
         id: 'speaker-4',
-        Name: 'uiiiooo Mutembei',
-        image: './images/h2o.png',
-        quote: 'its a great day' 
+        Name: 'Teressa May',
+        image: './images/Teressa-May.avif',
+        quote: '', 
+        Description: 'Phd Havard University, Masters Degree',
+      }, 
+      {
+        id: 'speaker-5',
+        Name: 'David Rono',
+        image: './images/William-ruto.webp',
+        quote: 'Climates change is a great matter for concern, we need to act urgently',
+        Description: 'Phd Havard University, Masters Degree',
       },
+      {
+        id: 'speaker-6',
+        Name: 'Tedrose Guteress',
+        image: './images/hz-tedros2.jpg',
+        quote: 'Climates change is a great matter for concern, we need to act urgently',
+        Description: 'Phd Havard University, Masters Degree',
+      },
+
 ];
  const speakerArray=[];
  speakers. forEach ( (item) => {
-    const speakerDispaly = `<div><img class="speaker-image" src="images/Fish-icon.png" alt=""></div>
+    const speakerDispaly = `<div><img class="speaker-image" src="${item.image}" alt=""></div>
     <div class="speaker-description">
-        <div class="speaker-name">Herbert Chimenga</div>
-        <div class="profession-des">PHD holder at Havard University,Masters degree in global climate studies with A bachelors degree</div>
-        <div class="speaker-content">Climate is at rhe core of the changing global temperatures. An action has to be taken right now to stop this.</div>
+        <div class="speaker-name">${item.Name}</div>
+        <div class="profession-des">${item.Description}</div>
+        <div class="speaker-content">${item.quote}</div>
     </div>`
     speakerArray.push(speakerDispaly);
  })
