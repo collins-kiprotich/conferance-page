@@ -59,7 +59,7 @@ const speakers = [
       },
       {
         id: 'speaker-4',
-        Name: 'uiiiooo Mutembei'git,
+        Name: 'uiiiooo Mutembei',
         image: './images/h2o.png',
         quote: 'its a great day' 
       },
