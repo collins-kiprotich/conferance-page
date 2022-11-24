@@ -193,13 +193,6 @@ body,html {
         padding-bottom: 6px;
         margin-bottom: 10px;
     }
-    /* #about .borderbottom {
-        border-bottom: 1px solid rgb(47, 47, 235);
-        position: absolute;
-        left: 30%;
-        right: 30%;
-        padding-bottom: 3%;
-    } */
     
     #about img {
         width: 70px;
@@ -558,42 +551,6 @@ body,html {
     color: #ec5242;
     font-size: 20px;
    } 
-
-   /* .menu-content {
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-   }
-
-   .menu-content {
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    display: flex;
-    background-color: green;
-    z-index: 100;
-
-   }
-
-.cross-icon {
-    display: flex;
-    justify-content: ;
-    
-}
-
-.cross-image {
-    width: 50px;
-}
-.cross-homapageabout {
-    display: flex;
-    flex-direction: column;
-} */
-
-
 
 @media (max-width:768px){
     
